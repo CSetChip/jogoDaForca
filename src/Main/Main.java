@@ -1,7 +1,13 @@
+package Main;
+
+import serves.GerenciadorDePalavraChave;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        GerenciadorDePalavraChave gerenciadorDePalavraChave = new GerenciadorDePalavraChave();
 
         String palavraChave = "bicicleta";
         String letrasUltilizadas= "";
