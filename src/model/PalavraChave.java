@@ -9,15 +9,6 @@ public class PalavraChave{
         setPalavra(palavra);
     }
 
-//    public void adicionarDicas(){
-//        System.out.print("Você Pode Adicionar Dicas!! \n");
-//        int continuarAdicionando = 1;
-//
-//        while (continuarAdicionando == 1){
-//
-//        }
-//    }
-
     public String getPalavra() {
         return palavra;
     }
